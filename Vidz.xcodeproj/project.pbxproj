@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60585AE1D24CE1B009B77BA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60585AD1D24CE1A009B77BA /* Video.swift */; };
+		D62493851D2106E900DC4672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62493841D2106E900DC4672 /* AppDelegate.swift */; };
+		D62493871D2106E900DC4672 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62493861D2106E900DC4672 /* HomeController.swift */; };
+		D624938A1D2106E900DC4672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62493881D2106E900DC4672 /* Main.storyboard */; };
+		D624938C1D2106E900DC4672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D624938B1D2106E900DC4672 /* Assets.xcassets */; };
+		D624938F1D2106E900DC4672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D624938D1D2106E900DC4672 /* LaunchScreen.storyboard */; };
+		D66AD0FC1D245AFB00486A35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66AD0FB1D245AFB00486A35 /* Extensions.swift */; };
+		D66AD0FF1D245BD000486A35 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66AD0FE1D245BD000486A35 /* VideoCell.swift */; };
+		D66AD1021D245E6B00486A35 /* Menubar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66AD1011D245E6B00486A35 /* Menubar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D60585AD1D24CE1A009B77BA /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		D62493811D2106E900DC4672 /* Vidz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vidz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62493841D2106E900DC4672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D62493861D2106E900DC4672 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		D62493891D2106E900DC4672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D624938B1D2106E900DC4672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D624938E1D2106E900DC4672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D62493901D2106E900DC4672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66AD0FB1D245AFB00486A35 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D66AD0FE1D245BD000486A35 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		D66AD1011D245E6B00486A35 /* Menubar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menubar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D624937E1D2106E900DC4672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60585AC1D24CDAC009B77BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D60585AD1D24CE1A009B77BA /* Video.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D62493781D2106E900DC4672 = {
+			isa = PBXGroup;
+			children = (
+				D62493831D2106E900DC4672 /* Vidz */,
+				D62493821D2106E900DC4672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62493821D2106E900DC4672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62493811D2106E900DC4672 /* Vidz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62493831D2106E900DC4672 /* Vidz */ = {
+			isa = PBXGroup;
+			children = (
+				D66AD0FA1D245AE800486A35 /* Helpers */,
+				D60585AC1D24CDAC009B77BA /* Model */,
+				D66AD0FD1D245BA400486A35 /* View */,
+				D66AD1001D245C1100486A35 /* Controller */,
+				D62493881D2106E900DC4672 /* Main.storyboard */,
+				D624938B1D2106E900DC4672 /* Assets.xcassets */,
+				D624938D1D2106E900DC4672 /* LaunchScreen.storyboard */,
+				D62493901D2106E900DC4672 /* Info.plist */,
+				D62493841D2106E900DC4672 /* AppDelegate.swift */,
+			);
+			path = Vidz;
+			sourceTree = "<group>";
+		};
+		D66AD0FA1D245AE800486A35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D66AD0FB1D245AFB00486A35 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D66AD0FD1D245BA400486A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D66AD0FE1D245BD000486A35 /* VideoCell.swift */,
+				D66AD1011D245E6B00486A35 /* Menubar.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D66AD1001D245C1100486A35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D62493861D2106E900DC4672 /* HomeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62493801D2106E900DC4672 /* Vidz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62493931D2106E900DC4672 /* Build configuration list for PBXNativeTarget "Vidz" */;
+			buildPhases = (
+				D624937D1D2106E900DC4672 /* Sources */,
+				D624937E1D2106E900DC4672 /* Frameworks */,
+				D624937F1D2106E900DC4672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vidz;
+			productName = Vidz;
+			productReference = D62493811D2106E900DC4672 /* Vidz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62493791D2106E900DC4672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matthew Houston";
+				TargetAttributes = {
+					D62493801D2106E900DC4672 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = D624937C1D2106E900DC4672 /* Build configuration list for PBXProject "Vidz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62493781D2106E900DC4672;
+			productRefGroup = D62493821D2106E900DC4672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62493801D2106E900DC4672 /* Vidz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D624937F1D2106E900DC4672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D624938F1D2106E900DC4672 /* LaunchScreen.storyboard in Resources */,
+				D624938C1D2106E900DC4672 /* Assets.xcassets in Resources */,
+				D624938A1D2106E900DC4672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D624937D1D2106E900DC4672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62493871D2106E900DC4672 /* HomeController.swift in Sources */,
+				D60585AE1D24CE1B009B77BA /* Video.swift in Sources */,
+				D66AD0FF1D245BD000486A35 /* VideoCell.swift in Sources */,
+				D66AD0FC1D245AFB00486A35 /* Extensions.swift in Sources */,
+				D62493851D2106E900DC4672 /* AppDelegate.swift in Sources */,
+				D66AD1021D245E6B00486A35 /* Menubar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D62493881D2106E900DC4672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62493891D2106E900DC4672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D624938D1D2106E900DC4672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D624938E1D2106E900DC4672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D62493911D2106E900DC4672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D62493921D2106E900DC4672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62493941D2106E900DC4672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vidz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vidz.Vidz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D62493951D2106E900DC4672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vidz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vidz.Vidz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D624937C1D2106E900DC4672 /* Build configuration list for PBXProject "Vidz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62493911D2106E900DC4672 /* Debug */,
+				D62493921D2106E900DC4672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62493931D2106E900DC4672 /* Build configuration list for PBXNativeTarget "Vidz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62493941D2106E900DC4672 /* Debug */,
+				D62493951D2106E900DC4672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62493791D2106E900DC4672 /* Project object */;
+}
